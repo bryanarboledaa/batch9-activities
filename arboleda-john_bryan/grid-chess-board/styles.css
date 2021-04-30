@@ -1,7 +1,9 @@
 body {
-    background-image: url(assets/bg1.jpg);
-    background-color: burlywood;
+    background-image: url(assets/valobg1.png);
+    background-color: white;
+    background-position: top;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .chessboard {
@@ -13,6 +15,7 @@ body {
     grid-template-rows: repeat(8, 3vw);
     grid-auto-flow: row;
     margin: auto;
+    margin-left: 15%;
     margin-top: 15%;
 }
 
@@ -28,7 +31,7 @@ body {
 .black-box {
     display: grid;
     flex-direction: row;
-    background-color: burlywood;
+    background-color: #62a689;
     font-size: 2vw;
     justify-content: center;
     align-content: center;
