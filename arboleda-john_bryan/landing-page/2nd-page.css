@@ -1,0 +1,78 @@
+html, body {
+    font-family: 'VALORANT', sans-serif;
+}
+
+body {
+    background-color: #ECE8E1;
+    width: 100%;
+    margin-top: 1000px;
+}
+
+#inner {
+    background-image: url(assets/valo.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(8, 0, 0, 0.5);
+    margin: auto;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #000;
+    top: 5;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    width: 1000px;
+    height: 200px;
+    margin-bottom: 40vh;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+#btn {
+    background: #0F1923;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    height: 60px;
+    width: 160px;
+    text-align: center;
+    font-size: 16px;
+    border: 2px solid #dc3d4b;
+
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 15px;
+    padding: 0px 20px;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+}
+
+#btn:hover, a:hover {
+    background-color: #dc3d4b;
+    color: black;
+}
+
+@media all and (max-width: 1024px) {
+    #inner {
+        width: 400px;
+        height: 250px;
+    }
+}
+
+
+
