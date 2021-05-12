@@ -25,17 +25,20 @@ const nightClubRegister = [
     }
 ]
 
-for (let i = 0; i < nightClubRegister.length; i++);
-    if(nightClubRegister[i] === 'male');
-        console.log('Hi Mr.' + nightClubRegister.name + 'thank you for coming!');
+for (let i = 0; i < nightClubRegister.length; i++) {
 
-    if (age < 18) {
-        console.log('Sorry! We cannot let you in because you are underage');
+    if (nightClubRegister[i].age < 18) {
+        if(nightClubRegister[i].gender === 'male') {
+            console.log('Sorry Mr ' + nightClubRegister[i].name + ', we cannot let you in because you are underage');
+        }
+        else if(nightClubRegister[i].gender === 'female') {
+            console.log('Sorry Mrs/Ms ' + nightClubRegister[i].name + ', we cannot let you in because you are underage');
+        }
     }
-    if (gender = 'male') {
-        console.log('Hi Mr.' + name + 'thank you for coming!');
+    else if(nightClubRegister[i].gender === 'male') {
+        console.log('Hi Mr ' + nightClubRegister[i].name + ' thank you for coming!');
     }
-    if (gender = 'female') {
-        console.log('Hi Mrs./Ms.' + name + 'thank you for coming!');
+    else if (nightClubRegister[i].gender === 'female') {
+        console.log('Hi Mrs/Ms ' + nightClubRegister[i].name + ' thank you for coming!');
     }
-
+}
