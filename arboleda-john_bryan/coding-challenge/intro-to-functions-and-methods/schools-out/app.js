@@ -1,7 +1,7 @@
-function sendText( ) {
+function sendText(firstName, lastName ) {
     //Write your code here.
+    console.log('Hi ' + firstName + ' ' + lastName + ', we dont have classes today due to typhoon Yolanda')
 }
-sendText()
 
 
 sendText('Jose', 'Rizal')
