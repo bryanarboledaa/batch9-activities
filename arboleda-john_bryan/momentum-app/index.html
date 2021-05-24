@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Momentum App</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+</head>
+
+<body>
+<div id="main-container">
+        <div id="clock">
+            <h1 id="h-clock"></p>
+            <h3 id="h3-date"></h3>
+        </div>
+        <div class="div1">
+            <form id="name-form" autocomplete="off">
+                <h3 id="greetings"></h3>
+                <input type="text" id="input-name" name="name" placeholder="What's your name?">
+                <input type="submit" id="submit-name">
+            </form>
+        </div>
+
+        <div class="div2">    
+            <form autocomplete="off">
+                <h3 id="focus"></h3>
+                <input type="text" id="input-focus" name="main-focus" placeholder="What's your main focus today?">
+                <input type="submit" id="submit-focus">
+            </form>
+        </div> 
+            
+        <div class="container">
+            <h3 id="to-do-title">To-Do List</h3>
+            <form id="todo-form" autocomplete="off">
+                <input type="text" id="add-to-do" name="to-do" placeholder="Write a To Do"><input type="submit" id="submit-todo">
+            </form>
+            <div class="toDoContainer"></div>   
+        </div>
+
+        <div id="quotesContainer">
+            <div id="div-quotes">
+                <p id="quotation"></p>
+            </div>
+        </div>
+            <div id="div-quote-form">
+                <form id="quote-form" autocomplete="off">
+                    <input type="text" id="add-quote" placeholder="Add quote">
+                    <input type="submit" id="submit-quote">
+                </form>
+            </div>    
+</div>
+
+<script src="clock.js"></script>
+<script src="input-name-focus.js"></script>
+<script src="quotes.js"></script>
+<script src="todos.js"></script>
+</body>
+</html>
